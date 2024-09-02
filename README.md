@@ -14,7 +14,7 @@ View Expenses and Current Price: Get the total expenses and the current price of
 1. Clone the repository
 2. Install Dependencies
 3. Setup Environment Variables
-4. Start the server (use nodemon index or npm start)
+4. Start the server (nodemon index.js or npm start)
 
 # API Endpoints:
 1. ## Fetch Transactions
