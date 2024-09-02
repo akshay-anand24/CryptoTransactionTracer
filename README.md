@@ -10,6 +10,12 @@ Calculate Total Expenses: Calculate the total expenses of a user based on their 
 Fetch Current Ethereum Price: Retrieve the current price of Ethereum from CoinGecko and store it in the database every 10 minutes.
 View Expenses and Current Price: Get the total expenses and the current price of Ethereum for a given address.
 
+# Installation Procedure:
+1. Clone the repository
+2. Install Dependencies
+3. Setup Environment Variables
+4. Start the server (use nodemon index or npm start)
+
 # API Endpoints:
 1. ## Fetch Transactions
 Endpoint: GET /api/transactions/:address
