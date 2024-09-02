@@ -42,6 +42,6 @@ Users can get their total expenses and the current Ethereum price in a single AP
 1. GET /api/transactions/:address
  ![image](https://github.com/user-attachments/assets/3dd5d9fd-8b4b-48a0-90b0-c58135a6897f)
 
-2.GET /api/expenses/:address 
+2. GET /api/expenses/:address 
 ![image](https://github.com/user-attachments/assets/92bf0c8d-9d17-4157-8207-b96ec806379c)
 
