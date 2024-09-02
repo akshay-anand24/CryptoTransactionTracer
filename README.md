@@ -1,4 +1,4 @@
-# Crypto Transaction Tracer
+![image](https://github.com/user-attachments/assets/bd017f4c-8579-486d-8c33-9f1e39f4192c)# Crypto Transaction Tracer
 This project is a Node.js-based API that allows users to fetch their Ethereum transactions, calculate their total expenses, and retrieve the current price of Ethereum.
 The project uses MongoDB for storing transaction and price data.
 
@@ -35,3 +35,11 @@ The expense for each transaction is calculated as gasUsed * gasPrice / 1e18 (in 
 
 4. Getting Total Expenses and Current Price:
 Users can get their total expenses and the current Ethereum price in a single API call by providing their address.
+
+# Screenshots of APIs
+1. GET /api/transactions/:address
+ ![image](https://github.com/user-attachments/assets/3dd5d9fd-8b4b-48a0-90b0-c58135a6897f)
+
+2.GET /api/expenses/:address 
+![image](https://github.com/user-attachments/assets/92bf0c8d-9d17-4157-8207-b96ec806379c)
+
