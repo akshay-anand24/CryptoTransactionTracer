@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const transactionRoutes = require('./routes/transactionRoutes');
+require('./controllers/priceFetcher')
 
 const app = express();
 const port = 3000;
