@@ -2,7 +2,7 @@
 This project is a Node.js-based API that allows users to fetch their Ethereum transactions, calculate their total expenses, and retrieve the current price of Ethereum.
 The project uses MongoDB for storing transaction and price data.
 
-### Home Route: https://cryptotransactiontracer.onrender.com/
+### Deployed Home Route: https://cryptotransactiontracer.onrender.com/
 
 ## Features
 Fetch Ethereum Transactions: Retrieve a list of Ethereum transactions for a given address.
