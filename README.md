@@ -12,4 +12,4 @@ View Expenses and Current Price: Get the total expenses and the current price of
 Endpoint: GET /api/transactions/:address
 Description: Fetches and stores Ethereum transactions for the given address.
 GET http://localhost:3000/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d
-URL: [https://cryptotransactiontracer.onrender.com](https://cryptotransactiontracer.onrender.com/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d)
+URL:https://cryptotransactiontracer.onrender.com/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d)
