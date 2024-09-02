@@ -21,3 +21,17 @@ GET URL: https://cryptotransactiontracer.onrender.com/api/expenses/0xce94e5621a5
 
 3. ##  Fetch Ethereum Price (Internal Task)
 Description: The system fetches the current Ethereum price from CoinGecko every 10 minutes and stores it in the database. This runs automatically and does not have a public endpoint.
+
+
+## How It Works
+1. Fetching Ethereum Transactions:
+Users can fetch their Ethereum transactions by providing their address. The transactions are retrieved using the Etherscan API and stored in the MongoDB database.
+
+2. Fetching Ethereum Price:
+Every 10 minutes, the system fetches the latest Ethereum price from CoinGecko and stores it in the database. This allows the system to provide up-to-date pricing information.
+
+3.Calculating Expenses:
+The expense for each transaction is calculated as gasUsed * gasPrice / 1e18 (in Ether). The total expense is aggregated for all transactions of the given address.
+
+4.Getting Total Expenses and Current Price:
+Users can get their total expenses and the current Ethereum price in a single API call by providing their address.
