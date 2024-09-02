@@ -9,9 +9,8 @@ const getTransactions = async (req, res) => {
         const transactions = data.result;
 
         // Store transactions in MongoDB
-        // const newTransaction = new Transaction({ address, transactions });
-        // await newTransaction.save();
-        console.log(address)
+        const newTransaction = new Transaction({ address, transactions });
+        await newTransaction.save();
 
         res.json(transactions);
     } catch (error) {
