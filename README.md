@@ -1,3 +1,4 @@
+# Crypto Transaction Tracer
 This project is a Node.js-based API that allows users to fetch their Ethereum transactions, calculate their total expenses, and retrieve the current price of Ethereum.
 The project uses MongoDB for storing transaction and price data.
 
@@ -11,5 +12,12 @@ View Expenses and Current Price: Get the total expenses and the current price of
 1. ## Fetch Transactions
 Endpoint: GET /api/transactions/:address
 Description: Fetches and stores Ethereum transactions for the given address.
-GET http://localhost:3000/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d
-URL:https://cryptotransactiontracer.onrender.com/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d)
+GET URL:https://cryptotransactiontracer.onrender.com/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d)
+
+2. ## Get Total Expenses and Current Price
+Endpoint: GET /api/expenses/:address
+Description: Returns the total expenses for the given address based on their transactions and the current price of Ethereum.
+GET URL: https://cryptotransactiontracer.onrender.com/api/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0d
+
+3. ##  Fetch Ethereum Price (Internal Task)
+Description: The system fetches the current Ethereum price from CoinGecko every 10 minutes and stores it in the database. This runs automatically and does not have a public endpoint.
