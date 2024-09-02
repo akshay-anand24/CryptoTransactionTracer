@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const transactionRoutes = require('./routes/transactionRoutes');
+const expenseRoutes = require('./routes/expenseRoutes'); 
 require('./controllers/priceFetcher')
 
 const app = express();
@@ -21,9 +22,7 @@ mongoose.connection.on('error', (err) => {
 });
 // Use routes
 app.use('/api/transactions', transactionRoutes);
-// app.get('/api/transactions/:address',(req,res)=>{
-//     res.send(req.params.address)
-// })
+app.use('/api/expenses', expenseRoutes);
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
